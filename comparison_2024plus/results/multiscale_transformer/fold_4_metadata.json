@@ -1,0 +1,17 @@
+{
+  "name": "multiscale_transformer",
+  "fold": 4,
+  "train_n": 3131,
+  "validation_n": 1033,
+  "test_n": 1033,
+  "best_epoch": 7,
+  "validation_macro_f1": 0.707554468515486,
+  "test_accuracy": 0.7473378509196515,
+  "test_macro_f1": 0.7159799094535573,
+  "test_balanced_accuracy": 0.7226587020798956,
+  "test_quadratic_kappa": 0.8545783496876858,
+  "runtime_seconds": 76.79258322715759,
+  "parameters": 78532,
+  "device": "cpu",
+  "seed": 20260923
+}

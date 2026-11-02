@@ -1,0 +1,17 @@
+{
+  "name": "dual_branch_cnn",
+  "fold": 1,
+  "train_n": 3111,
+  "validation_n": 1040,
+  "test_n": 1046,
+  "best_epoch": 9,
+  "validation_macro_f1": 0.7372475903968437,
+  "test_accuracy": 0.731357552581262,
+  "test_macro_f1": 0.7065171033389624,
+  "test_balanced_accuracy": 0.7064708930068606,
+  "test_quadratic_kappa": 0.8380565166466969,
+  "runtime_seconds": 33.38226866722107,
+  "parameters": 40388,
+  "device": "cpu",
+  "seed": 20260920
+}

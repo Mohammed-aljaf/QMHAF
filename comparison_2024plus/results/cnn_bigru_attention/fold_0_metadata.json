@@ -1,0 +1,17 @@
+{
+  "name": "cnn_bigru_attention",
+  "fold": 0,
+  "train_n": 3118,
+  "validation_n": 1046,
+  "test_n": 1033,
+  "best_epoch": 7,
+  "validation_macro_f1": 0.7441151736189562,
+  "test_accuracy": 0.7366892545982575,
+  "test_macro_f1": 0.7027071979736776,
+  "test_balanced_accuracy": 0.6860265297389816,
+  "test_quadratic_kappa": 0.8197651868731941,
+  "runtime_seconds": 37.10439348220825,
+  "parameters": 34893,
+  "device": "cpu",
+  "seed": 20260919
+}

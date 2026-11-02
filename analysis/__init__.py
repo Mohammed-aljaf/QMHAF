@@ -1,0 +1,1 @@
+"""Dataset-free manuscript analysis."""
