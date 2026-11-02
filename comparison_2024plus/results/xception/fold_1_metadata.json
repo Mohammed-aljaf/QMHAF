@@ -1,0 +1,17 @@
+{
+  "name": "xception",
+  "fold": 1,
+  "train_n": 3111,
+  "validation_n": 1040,
+  "test_n": 1046,
+  "best_epoch": 11,
+  "validation_macro_f1": 0.7522178321475371,
+  "test_accuracy": 0.7437858508604207,
+  "test_macro_f1": 0.7209495376121335,
+  "test_balanced_accuracy": 0.7300103311512918,
+  "test_quadratic_kappa": 0.8500214050302846,
+  "runtime_seconds": 48.636521339416504,
+  "parameters": 15028,
+  "device": "cpu",
+  "seed": 20260920
+}

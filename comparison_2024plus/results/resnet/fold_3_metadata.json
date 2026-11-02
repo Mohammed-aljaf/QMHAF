@@ -1,0 +1,17 @@
+{
+  "name": "resnet",
+  "fold": 3,
+  "train_n": 3119,
+  "validation_n": 1033,
+  "test_n": 1045,
+  "best_epoch": 13,
+  "validation_macro_f1": 0.7271858606196508,
+  "test_accuracy": 0.7569377990430622,
+  "test_macro_f1": 0.7232353929917799,
+  "test_balanced_accuracy": 0.7172745984790667,
+  "test_quadratic_kappa": 0.849823354590617,
+  "runtime_seconds": 46.7721586227417,
+  "parameters": 75700,
+  "device": "cpu",
+  "seed": 20260922
+}
