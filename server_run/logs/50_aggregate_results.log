@@ -1,0 +1,11 @@
+            experiment   signal_set  subjects           folds  accuracy  macro_f1  ahi_mae
+                  main          all      5197 [0, 1, 2, 3, 4]  0.840100  0.831011 2.162991
+     A2_ssl_factorised          all      1033             [0]  0.827686  0.824071 2.248333
+       signal_ablation spo2_airflow      1033             [0]  0.827686  0.818644 2.196831
+       signal_ablation        no_hr      1033             [0]  0.823814  0.825261 2.276460
+A3_quality_no_boundary          all      1033             [0]  0.819942  0.817041 2.240803
+         A1_ssl_direct          all      1033             [0]  0.818974  0.814621 2.289209
+       signal_ablation  spo2_effort      1033             [0]  0.818974  0.803104 2.376831
+  A0_supervised_direct          all      1033             [0]  0.804453  0.793758 2.487416
+       signal_ablation    spo2_only      1033             [0]  0.789932  0.761469 2.622778
+       signal_ablation    resp_only      1033             [0]  0.718296  0.719307 3.440811

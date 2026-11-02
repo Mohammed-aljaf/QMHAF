@@ -1,0 +1,18 @@
+test_allnight_is_finite (training.test_training_assets.TrainingAssetTests.test_allnight_is_finite) ... ok
+test_checksums (training.test_training_assets.TrainingAssetTests.test_checksums) ... ok
+test_folds_are_disjoint_and_complete (training.test_training_assets.TrainingAssetTests.test_folds_are_disjoint_and_complete) ... ok
+test_no_forbidden_columns (training.test_training_assets.TrainingAssetTests.test_no_forbidden_columns) ... ok
+test_shape_and_identity (training.test_training_assets.TrainingAssetTests.test_shape_and_identity) ... ok
+test_target_thresholds (training.test_training_assets.TrainingAssetTests.test_target_thresholds) ... ok
+test_annotations_are_targets_not_inputs (deep_learning.test_deep_pipeline.DeepPipelineTests.test_annotations_are_targets_not_inputs) ... ok
+test_artifact_hashes (deep_learning.test_deep_pipeline.DeepPipelineTests.test_artifact_hashes) ... ok
+test_auxiliary_sum_exactly_reconstructs_target (deep_learning.test_deep_pipeline.DeepPipelineTests.test_auxiliary_sum_exactly_reconstructs_target) ... ok
+test_cohort_and_folds (deep_learning.test_deep_pipeline.DeepPipelineTests.test_cohort_and_folds) ... ok
+test_raw_loader_and_gradient (deep_learning.test_deep_pipeline.DeepPipelineTests.test_raw_loader_and_gradient) ... /usr/local/lib/python3.13/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.683s
+
+OK

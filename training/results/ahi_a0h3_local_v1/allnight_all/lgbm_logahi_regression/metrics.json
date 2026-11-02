@@ -1,0 +1,290 @@
+{
+  "overall": {
+    "accuracy": 0.7662921348314606,
+    "balanced_accuracy": 0.7394275731463101,
+    "macro_f1": 0.7540072436740867,
+    "weighted_f1": 0.765349394869193,
+    "quadratic_kappa": 0.8580125893089648,
+    "mean_absolute_class_error": 0.23612791702679342,
+    "log_loss": 3.7669258017970058,
+    "confusion_matrix": [
+      [
+        1999,
+        315,
+        3,
+        0
+      ],
+      [
+        403,
+        1506,
+        161,
+        1
+      ],
+      [
+        5,
+        294,
+        587,
+        51
+      ],
+      [
+        0,
+        5,
+        114,
+        341
+      ]
+    ],
+    "recall_normal": 0.862753560638757,
+    "recall_mild": 0.7271849348140995,
+    "recall_moderate": 0.6264674493062967,
+    "recall_severe": 0.741304347826087,
+    "roc_auc_ovr_macro": 0.8259542914950081,
+    "accuracy_95ci": [
+      0.7557476231633535,
+      0.7758038029386344
+    ],
+    "macro_f1_95ci": [
+      0.7410509707442653,
+      0.7661877475404874
+    ],
+    "qc_pass_accuracy": 0.7702520685010583,
+    "qc_pass_balanced_accuracy": 0.7406774752777207,
+    "qc_pass_macro_f1": 0.7557300757603169,
+    "qc_pass_weighted_f1": 0.7691233060793295,
+    "qc_pass_quadratic_kappa": 0.8588324015278297,
+    "qc_pass_subjects": 5197,
+    "scenario": "allnight_all",
+    "model": "lgbm_logahi_regression",
+    "subjects": 5785,
+    "features": 479,
+    "runtime_seconds": 67.11531090736389,
+    "fold_accuracy_mean": 0.7662921348314606,
+    "fold_accuracy_std": 0.017031399505971673,
+    "fold_macro_f1_mean": 0.7538273456394904,
+    "fold_macro_f1_std": 0.01804227192092395,
+    "ahi_mae": 2.910676380439188,
+    "ahi_rmse": 4.825978801546873,
+    "ahi_pearson": 0.9328168367386909
+  },
+  "folds": [
+    {
+      "accuracy": 0.742437337942956,
+      "balanced_accuracy": 0.7085528091569189,
+      "macro_f1": 0.7242160830279826,
+      "weighted_f1": 0.7409396048150064,
+      "quadratic_kappa": 0.8423440557727226,
+      "mean_absolute_class_error": 0.2601555747623163,
+      "log_loss": 4.151419697394628,
+      "confusion_matrix": [
+        [
+          388,
+          75,
+          1,
+          0
+        ],
+        [
+          89,
+          300,
+          24,
+          1
+        ],
+        [
+          0,
+          67,
+          106,
+          14
+        ],
+        [
+          0,
+          1,
+          26,
+          65
+        ]
+      ],
+      "recall_normal": 0.8362068965517241,
+      "recall_mild": 0.7246376811594203,
+      "recall_moderate": 0.5668449197860963,
+      "recall_severe": 0.7065217391304348,
+      "roc_auc_ovr_macro": 0.805832411710465,
+      "fold": 0,
+      "n_test": 1157,
+      "ahi_mae": 3.0976658553103036,
+      "ahi_rmse": 5.272475957956414
+    },
+    {
+      "accuracy": 0.756266205704408,
+      "balanced_accuracy": 0.7355884780426186,
+      "macro_f1": 0.7491182524263085,
+      "weighted_f1": 0.7551617789238301,
+      "quadratic_kappa": 0.8544779932553003,
+      "mean_absolute_class_error": 0.24546240276577355,
+      "log_loss": 3.9285246854539775,
+      "confusion_matrix": [
+        [
+          400,
+          64,
+          0,
+          0
+        ],
+        [
+          93,
+          283,
+          38,
+          0
+        ],
+        [
+          1,
+          52,
+          125,
+          9
+        ],
+        [
+          0,
+          1,
+          24,
+          67
+        ]
+      ],
+      "recall_normal": 0.8620689655172413,
+      "recall_mild": 0.6835748792270532,
+      "recall_moderate": 0.6684491978609626,
+      "recall_severe": 0.7282608695652174,
+      "roc_auc_ovr_macro": 0.8221092286459681,
+      "fold": 1,
+      "n_test": 1157,
+      "ahi_mae": 2.827467831327287,
+      "ahi_rmse": 4.58196630979113
+    },
+    {
+      "accuracy": 0.7830596369922213,
+      "balanced_accuracy": 0.7541631035844607,
+      "macro_f1": 0.7671560782268599,
+      "weighted_f1": 0.7822531994854443,
+      "quadratic_kappa": 0.8695870322540182,
+      "mean_absolute_class_error": 0.21866897147796024,
+      "log_loss": 3.496665599818966,
+      "confusion_matrix": [
+        [
+          406,
+          57,
+          0,
+          0
+        ],
+        [
+          72,
+          309,
+          33,
+          0
+        ],
+        [
+          1,
+          53,
+          123,
+          11
+        ],
+        [
+          0,
+          1,
+          23,
+          68
+        ]
+      ],
+      "recall_normal": 0.8768898488120951,
+      "recall_mild": 0.7463768115942029,
+      "recall_moderate": 0.6542553191489362,
+      "recall_severe": 0.7391304347826086,
+      "roc_auc_ovr_macro": 0.8367438213808563,
+      "fold": 2,
+      "n_test": 1157,
+      "ahi_mae": 2.85179533417054,
+      "ahi_rmse": 4.730317095025824
+    },
+    {
+      "accuracy": 0.7692307692307693,
+      "balanced_accuracy": 0.7523566014811323,
+      "macro_f1": 0.762724308221856,
+      "weighted_f1": 0.7683006307748311,
+      "quadratic_kappa": 0.8609186030710694,
+      "mean_absolute_class_error": 0.23336214347450301,
+      "log_loss": 3.7195606117596163,
+      "confusion_matrix": [
+        [
+          402,
+          61,
+          0,
+          0
+        ],
+        [
+          75,
+          298,
+          41,
+          0
+        ],
+        [
+          1,
+          61,
+          116,
+          10
+        ],
+        [
+          0,
+          2,
+          16,
+          74
+        ]
+      ],
+      "recall_normal": 0.8682505399568035,
+      "recall_mild": 0.7198067632850241,
+      "recall_moderate": 0.6170212765957447,
+      "recall_severe": 0.8043478260869565,
+      "roc_auc_ovr_macro": 0.8331015170240708,
+      "fold": 3,
+      "n_test": 1157,
+      "ahi_mae": 2.8597950166258483,
+      "ahi_rmse": 4.665845501109568
+    },
+    {
+      "accuracy": 0.780466724286949,
+      "balanced_accuracy": 0.7464463672665587,
+      "macro_f1": 0.765922006294445,
+      "weighted_f1": 0.7795164095459673,
+      "quadratic_kappa": 0.8626201106495506,
+      "mean_absolute_class_error": 0.222990492653414,
+      "log_loss": 3.538458414557838,
+      "confusion_matrix": [
+        [
+          403,
+          58,
+          2,
+          0
+        ],
+        [
+          74,
+          316,
+          25,
+          0
+        ],
+        [
+          2,
+          61,
+          117,
+          7
+        ],
+        [
+          0,
+          0,
+          25,
+          67
+        ]
+      ],
+      "recall_normal": 0.8704103671706264,
+      "recall_mild": 0.7614457831325301,
+      "recall_moderate": 0.6256684491978609,
+      "recall_severe": 0.7282608695652174,
+      "roc_auc_ovr_macro": 0.8319646258430756,
+      "fold": 4,
+      "n_test": 1157,
+      "ahi_mae": 2.9166578647619623,
+      "ahi_rmse": 4.848806545315222
+    }
+  ]
+}
