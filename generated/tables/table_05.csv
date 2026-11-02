@@ -1,0 +1,6 @@
+Comparator,Architectural source,Implemented motif
+Xception-style 1-D CNN,Yook et al. [4],Depthwise-separable temporal residual blocks and direct night classification
+1-D ResNet,Mortazavi et al. [5],Residual temporal convolutions and global sequence aggregation
+CNN–BiGRU–Attention,Mortazavi et al. [5],"Temporal CNN, bidirectional GRU, and learned attention pooling"
+Multiscale Transformer,Zhang et al. [6],Parallel short/long convolutional paths with Transformer context
+Dual-branch CNN,Kolhar et al. [7],Parallel small- and large-receptive-field convolutional branches

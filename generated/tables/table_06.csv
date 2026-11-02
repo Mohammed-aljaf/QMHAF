@@ -1,0 +1,7 @@
+Measure,Value
+Accuracy (95% CI),0.840 (0.830–0.850)
+Macro-F1,0.831
+Balanced accuracy,0.827
+Quadratic weighted kappa,0.906
+Macro-AUROC / macro-AUPRC,0.967 / 0.896
+AHI MAE / RMSE (events/h),2.163 / 3.727

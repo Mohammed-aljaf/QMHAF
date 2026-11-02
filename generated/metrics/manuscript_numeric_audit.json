@@ -1,0 +1,874 @@
+[
+  {
+    "table": 6,
+    "row": 0,
+    "column": "Value",
+    "match": true,
+    "reference": "0.840 (0.830–0.850)",
+    "regenerated": "0.840 (0.830–0.850)"
+  },
+  {
+    "table": 6,
+    "row": 1,
+    "column": "Value",
+    "match": true,
+    "reference": "0.831",
+    "regenerated": "0.831"
+  },
+  {
+    "table": 6,
+    "row": 2,
+    "column": "Value",
+    "match": true,
+    "reference": "0.827",
+    "regenerated": "0.827"
+  },
+  {
+    "table": 6,
+    "row": 3,
+    "column": "Value",
+    "match": true,
+    "reference": "0.906",
+    "regenerated": "0.906"
+  },
+  {
+    "table": 6,
+    "row": 4,
+    "column": "Value",
+    "match": true,
+    "reference": "0.967 / 0.896",
+    "regenerated": "0.967 / 0.896"
+  },
+  {
+    "table": 6,
+    "row": 5,
+    "column": "Value",
+    "match": true,
+    "reference": "2.163 / 3.727",
+    "regenerated": "2.163 / 3.727"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "Test",
+    "match": true,
+    "reference": "1,033",
+    "regenerated": "1033"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "Best epoch",
+    "match": true,
+    "reference": "22",
+    "regenerated": "22"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "Acc.",
+    "match": true,
+    "reference": "0.842",
+    "regenerated": "0.8422071636011617"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.8396031922865483"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.830",
+    "regenerated": "0.8298216439102191"
+  },
+  {
+    "table": 7,
+    "row": 0,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.083",
+    "regenerated": "2.083297597823391"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "Test",
+    "match": true,
+    "reference": "1,046",
+    "regenerated": "1046"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "Best epoch",
+    "match": true,
+    "reference": "10",
+    "regenerated": "10"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "Acc.",
+    "match": true,
+    "reference": "0.834",
+    "regenerated": "0.8336520076481836"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.817",
+    "regenerated": "0.8165940973713948"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.814",
+    "regenerated": "0.8138314436385867"
+  },
+  {
+    "table": 7,
+    "row": 1,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.261",
+    "regenerated": "2.2606895739976256"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "Test",
+    "match": true,
+    "reference": "1,040",
+    "regenerated": "1040"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "Best epoch",
+    "match": true,
+    "reference": "8",
+    "regenerated": "8"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "Acc.",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.8403846153846154"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.832",
+    "regenerated": "0.8315774365843199"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.829",
+    "regenerated": "0.8288905787086077"
+  },
+  {
+    "table": 7,
+    "row": 2,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.291",
+    "regenerated": "2.2914617763051583"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "Test",
+    "match": true,
+    "reference": "1,045",
+    "regenerated": "1045"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "Best epoch",
+    "match": true,
+    "reference": "20",
+    "regenerated": "20"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "Acc.",
+    "match": true,
+    "reference": "0.849",
+    "regenerated": "0.8488038277511962"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.839",
+    "regenerated": "0.8388394643753238"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.836",
+    "regenerated": "0.8356994915397052"
+  },
+  {
+    "table": 7,
+    "row": 3,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.005",
+    "regenerated": "2.004635214994932"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "Test",
+    "match": true,
+    "reference": "1,033",
+    "regenerated": "1033"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "Best epoch",
+    "match": true,
+    "reference": "20",
+    "regenerated": "20"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "Acc.",
+    "match": true,
+    "reference": "0.835",
+    "regenerated": "0.8354307841239109"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.829",
+    "regenerated": "0.8286798876934892"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.825",
+    "regenerated": "0.8254979068289442"
+  },
+  {
+    "table": 7,
+    "row": 4,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.175",
+    "regenerated": "2.1746078796374646"
+  },
+  {
+    "table": 8,
+    "row": 0,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.748 (0.737–0.760)",
+    "regenerated": "0.748 (0.737–0.760)"
+  },
+  {
+    "table": 8,
+    "row": 0,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.720",
+    "regenerated": "0.7198027682329875"
+  },
+  {
+    "table": 8,
+    "row": 0,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.721",
+    "regenerated": "0.7211621220859624"
+  },
+  {
+    "table": 8,
+    "row": 0,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.847",
+    "regenerated": "0.8465089786290091"
+  },
+  {
+    "table": 8,
+    "row": 1,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.754 (0.743–0.766)",
+    "regenerated": "0.754 (0.743–0.766)"
+  },
+  {
+    "table": 8,
+    "row": 1,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.728",
+    "regenerated": "0.7280689358688662"
+  },
+  {
+    "table": 8,
+    "row": 1,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.729",
+    "regenerated": "0.7291949792451576"
+  },
+  {
+    "table": 8,
+    "row": 1,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.851",
+    "regenerated": "0.8512504190955725"
+  },
+  {
+    "table": 8,
+    "row": 2,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.766 (0.755–0.778)",
+    "regenerated": "0.766 (0.755–0.778)"
+  },
+  {
+    "table": 8,
+    "row": 2,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.737",
+    "regenerated": "0.7374191530351697"
+  },
+  {
+    "table": 8,
+    "row": 2,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.729",
+    "regenerated": "0.7285915993264344"
+  },
+  {
+    "table": 8,
+    "row": 2,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.854",
+    "regenerated": "0.8535243694840381"
+  },
+  {
+    "table": 8,
+    "row": 3,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.749 (0.738–0.761)",
+    "regenerated": "0.749 (0.738–0.761)"
+  },
+  {
+    "table": 8,
+    "row": 3,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.718",
+    "regenerated": "0.718335381629274"
+  },
+  {
+    "table": 8,
+    "row": 3,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.721",
+    "regenerated": "0.7214917529318734"
+  },
+  {
+    "table": 8,
+    "row": 3,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.848",
+    "regenerated": "0.8481974335969173"
+  },
+  {
+    "table": 8,
+    "row": 4,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.742 (0.729–0.754)",
+    "regenerated": "0.742 (0.729–0.754)"
+  },
+  {
+    "table": 8,
+    "row": 4,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.705",
+    "regenerated": "0.7054536598409948"
+  },
+  {
+    "table": 8,
+    "row": 4,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.691",
+    "regenerated": "0.6909286798046834"
+  },
+  {
+    "table": 8,
+    "row": 4,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.836",
+    "regenerated": "0.8357305584700405"
+  },
+  {
+    "table": 8,
+    "row": 5,
+    "column": "Accuracy (95% CI)",
+    "match": true,
+    "reference": "0.840 (0.830–0.850)",
+    "regenerated": "0.840 (0.830–0.850)"
+  },
+  {
+    "table": 8,
+    "row": 5,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.831",
+    "regenerated": "0.8310114519222351"
+  },
+  {
+    "table": 8,
+    "row": 5,
+    "column": "Bal. acc.",
+    "match": true,
+    "reference": "0.827",
+    "regenerated": "0.8266959949308299"
+  },
+  {
+    "table": 8,
+    "row": 5,
+    "column": "QWK",
+    "match": true,
+    "reference": "0.906",
+    "regenerated": "0.9062665161128243"
+  },
+  {
+    "table": 9,
+    "row": 0,
+    "column": "Support",
+    "match": true,
+    "reference": "2,100",
+    "regenerated": "2100"
+  },
+  {
+    "table": 9,
+    "row": 0,
+    "column": "Recall",
+    "match": true,
+    "reference": "0.893",
+    "regenerated": "0.8933333333333333"
+  },
+  {
+    "table": 9,
+    "row": 1,
+    "column": "Support",
+    "match": true,
+    "reference": "1,872",
+    "regenerated": "1872"
+  },
+  {
+    "table": 9,
+    "row": 1,
+    "column": "Recall",
+    "match": true,
+    "reference": "0.819",
+    "regenerated": "0.8194444444444444"
+  },
+  {
+    "table": 9,
+    "row": 2,
+    "column": "Support",
+    "match": true,
+    "reference": "826",
+    "regenerated": "826"
+  },
+  {
+    "table": 9,
+    "row": 2,
+    "column": "Recall",
+    "match": true,
+    "reference": "0.749",
+    "regenerated": "0.7493946731234867"
+  },
+  {
+    "table": 9,
+    "row": 3,
+    "column": "Support",
+    "match": true,
+    "reference": "399",
+    "regenerated": "399"
+  },
+  {
+    "table": 9,
+    "row": 3,
+    "column": "Recall",
+    "match": true,
+    "reference": "0.845",
+    "regenerated": "0.8446115288220551"
+  },
+  {
+    "table": 10,
+    "row": 0,
+    "column": "Brier",
+    "match": true,
+    "reference": "0.236",
+    "regenerated": "0.2364470411164715"
+  },
+  {
+    "table": 10,
+    "row": 0,
+    "column": "NLL",
+    "match": true,
+    "reference": "0.403",
+    "regenerated": "0.4029278406558723"
+  },
+  {
+    "table": 10,
+    "row": 0,
+    "column": "ECE15",
+    "match": true,
+    "reference": "0.046",
+    "regenerated": "0.046068719098814354"
+  },
+  {
+    "table": 10,
+    "row": 0,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.839715220319415"
+  },
+  {
+    "table": 10,
+    "row": 1,
+    "column": "Brier",
+    "match": true,
+    "reference": "0.230",
+    "regenerated": "0.22966324973831356"
+  },
+  {
+    "table": 10,
+    "row": 1,
+    "column": "NLL",
+    "match": true,
+    "reference": "0.379",
+    "regenerated": "0.3790635736559395"
+  },
+  {
+    "table": 10,
+    "row": 1,
+    "column": "ECE15",
+    "match": true,
+    "reference": "0.008",
+    "regenerated": "0.007565339051911082"
+  },
+  {
+    "table": 10,
+    "row": 1,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.8401000577256109"
+  },
+  {
+    "table": 11,
+    "row": 0,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.804",
+    "regenerated": "0.8044530493707648"
+  },
+  {
+    "table": 11,
+    "row": 0,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.794",
+    "regenerated": "0.7937584376165212"
+  },
+  {
+    "table": 11,
+    "row": 0,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.487",
+    "regenerated": "2.487415516249554"
+  },
+  {
+    "table": 11,
+    "row": 1,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.819",
+    "regenerated": "0.818973862536302"
+  },
+  {
+    "table": 11,
+    "row": 1,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.815",
+    "regenerated": "0.8146212628693252"
+  },
+  {
+    "table": 11,
+    "row": 1,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.289",
+    "regenerated": "2.2892093631529593"
+  },
+  {
+    "table": 11,
+    "row": 2,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.828",
+    "regenerated": "0.8276863504356244"
+  },
+  {
+    "table": 11,
+    "row": 2,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.824",
+    "regenerated": "0.8240707511163934"
+  },
+  {
+    "table": 11,
+    "row": 2,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.248",
+    "regenerated": "2.2483329404286185"
+  },
+  {
+    "table": 11,
+    "row": 3,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.820",
+    "regenerated": "0.8199419167473379"
+  },
+  {
+    "table": 11,
+    "row": 3,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.817",
+    "regenerated": "0.8170406424409076"
+  },
+  {
+    "table": 11,
+    "row": 3,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.241",
+    "regenerated": "2.2408028185040614"
+  },
+  {
+    "table": 11,
+    "row": 4,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.842",
+    "regenerated": "0.8422071636011617"
+  },
+  {
+    "table": 11,
+    "row": 4,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.8396031922865483"
+  },
+  {
+    "table": 11,
+    "row": 4,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.083",
+    "regenerated": "2.083297597823391"
+  },
+  {
+    "table": 12,
+    "row": 0,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.824",
+    "regenerated": "0.8238141335914811"
+  },
+  {
+    "table": 12,
+    "row": 0,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.825",
+    "regenerated": "0.8252613023885822"
+  },
+  {
+    "table": 12,
+    "row": 0,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.276",
+    "regenerated": "2.2764599238152567"
+  },
+  {
+    "table": 12,
+    "row": 1,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.790",
+    "regenerated": "0.7899322362052275"
+  },
+  {
+    "table": 12,
+    "row": 1,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.761",
+    "regenerated": "0.7614692743943485"
+  },
+  {
+    "table": 12,
+    "row": 1,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.623",
+    "regenerated": "2.622777553531889"
+  },
+  {
+    "table": 12,
+    "row": 2,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.718",
+    "regenerated": "0.718296224588577"
+  },
+  {
+    "table": 12,
+    "row": 2,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.719",
+    "regenerated": "0.7193069493484948"
+  },
+  {
+    "table": 12,
+    "row": 2,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "3.441",
+    "regenerated": "3.4408110678396193"
+  },
+  {
+    "table": 12,
+    "row": 3,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.828",
+    "regenerated": "0.8276863504356244"
+  },
+  {
+    "table": 12,
+    "row": 3,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.819",
+    "regenerated": "0.8186442868423047"
+  },
+  {
+    "table": 12,
+    "row": 3,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.197",
+    "regenerated": "2.1968311885382272"
+  },
+  {
+    "table": 12,
+    "row": 4,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.819",
+    "regenerated": "0.818973862536302"
+  },
+  {
+    "table": 12,
+    "row": 4,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.803",
+    "regenerated": "0.8031039051906907"
+  },
+  {
+    "table": 12,
+    "row": 4,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.377",
+    "regenerated": "2.3768309218194457"
+  },
+  {
+    "table": 12,
+    "row": 5,
+    "column": "Accuracy",
+    "match": true,
+    "reference": "0.842",
+    "regenerated": "0.8422071636011617"
+  },
+  {
+    "table": 12,
+    "row": 5,
+    "column": "Macro-F1",
+    "match": true,
+    "reference": "0.840",
+    "regenerated": "0.8396031922865483"
+  },
+  {
+    "table": 12,
+    "row": 5,
+    "column": "AHI MAE",
+    "match": true,
+    "reference": "2.083",
+    "regenerated": "2.083297597823391"
+  }
+]

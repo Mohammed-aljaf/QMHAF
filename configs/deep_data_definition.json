@@ -1,0 +1,34 @@
+{
+  "deep_manifest_sha256": "33d70bd42dde68e45cda509e1934ad9742b6c87cd78afcd802390164f9833e56",
+  "deep_targets_sha256": "3bade8cd7a9db308e40d8f829f8e0c0cfe9a9858f08141807754d2336fc79721",
+  "epoch_seconds": 30,
+  "event_target_rule": "same numerator as frozen ahi_a0h3_local_v1, assigned by event midpoint to 30-second epochs",
+  "exact_ahi_reconstruction_errors": 0,
+  "inference_requires_annotations": false,
+  "input_signals": {
+    "low_rate_1hz": [
+      "spo2",
+      "heart_rate"
+    ],
+    "optional_context_1hz": [
+      "body_position"
+    ],
+    "respiration_10hz": [
+      "airflow",
+      "thor",
+      "abdo"
+    ]
+  },
+  "max_epochs": 1199,
+  "primary_targets": [
+    "target_ahi",
+    "target_class"
+  ],
+  "sleep_target_rule": "XML stages N1/N2/N3-N4/REM=sleep, Wake=wake, Unknown masked",
+  "subjects": 5785,
+  "target_version": "ahi_a0h3_local_v1",
+  "training_only_auxiliary_targets": [
+    "event_count_target",
+    "sleep_target"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "target_version": "ahi_a0h3_local_v1",
+  "seed": 20260919,
+  "source": "notebooks/original_executed_production.ipynb and production log/report files",
+  "environment": {
+    "python": "3.13.11",
+    "torch": "2.8.0+cu129",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "vram_gb": 24
+  },
+  "ssl": {
+    "epochs": 30,
+    "batch_size": 32,
+    "crop_epochs": 160,
+    "workers": 0,
+    "learning_rate": 0.0003
+  },
+  "main": {
+    "epochs": 35,
+    "batch_size": 16,
+    "accumulate": 1,
+    "workers": 0,
+    "learning_rate": 0.0002,
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "ablations": {
+    "epochs": 10,
+    "batch_size": 16,
+    "accumulate": 1,
+    "workers": 0,
+    "folds": [
+      0
+    ],
+    "architecture_flags": {
+      "A0_supervised_direct": [
+        "--disable-auxiliary-factorisation",
+        "--disable-quality-routing",
+        "--disable-boundary-softening",
+        "--disable-calibration"
+      ],
+      "A1_ssl_direct": [
+        "--disable-auxiliary-factorisation",
+        "--disable-quality-routing",
+        "--disable-boundary-softening"
+      ],
+      "A2_ssl_factorised": [
+        "--disable-quality-routing",
+        "--disable-boundary-softening"
+      ],
+      "A3_quality_no_boundary": [
+        "--disable-boundary-softening"
+      ]
+    },
+    "signal_sets": [
+      "no_hr",
+      "spo2_only",
+      "resp_only",
+      "spo2_airflow",
+      "spo2_effort"
+    ]
+  },
+  "comparators": {
+    "epochs": 25,
+    "batch_size": 128,
+    "patience": 5,
+    "learning_rate": 0.001,
+    "device": "cpu",
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "evaluation": {
+    "folds": 5,
+    "validation_fold": "(outer_test_fold + 1) % 5",
+    "qc_only": true,
+    "comparison_bootstrap_seed": 20260922,
+    "comparison_bootstrap_iterations": 2000
+  },
+  "optimizer_details": {
+    "ssl": {
+      "optimizer": "AdamW",
+      "weight_decay": 0.05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "schedule": "cosine",
+      "minimum_learning_rate": 1e-05,
+      "gradient_clip_norm": 1.0,
+      "mask_probability": 0.45,
+      "ema_initial_momentum": 0.996,
+      "contrastive_temperature": 0.1,
+      "maximum_contrastive_tokens": 512,
+      "loss_weights": {
+        "distillation": 1.0,
+        "crossmodal": 0.2,
+        "variance": 0.1
+      }
+    },
+    "supervised": {
+      "optimizer": "AdamW",
+      "weight_decay": 0.05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "schedule": "8% linear warmup then cosine with 0.05 minimum multiplier",
+      "gradient_clip_norm": 1.0,
+      "sampler_power": 0.5,
+      "patience": 8,
+      "min_validation_macro_f1_improvement": 0.0001,
+      "loss_weights": {
+        "class_nll": 1.0,
+        "ordinal": 1.0,
+        "logahi": 1.0,
+        "factorised_ahi": 0.35,
+        "event": 0.3,
+        "sleep": 0.2
+      }
+    },
+    "comparators": {
+      "optimizer": "AdamW",
+      "weight_decay": 0.001,
+      "gradient_clip_norm": 2,
+      "class_weight": "sqrt(n_train / (4 * class_count_train))",
+      "min_validation_macro_f1_improvement": 1e-05
+    }
+  }
+}

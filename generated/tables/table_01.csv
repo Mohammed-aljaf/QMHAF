@@ -1,0 +1,3 @@
+Branch,Channels,Tensor,Quality
+Respiratory,"Airflow, thoracic effort, abdominal effort",3 × 300,Three valid fractions
+Low-rate,"Absolute SpO2, desaturation depth, ΔSpO2, robust HR, ΔHR",5 × 30,SpO2 and HR valid fractions

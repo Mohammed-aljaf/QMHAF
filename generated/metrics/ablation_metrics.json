@@ -1,0 +1,407 @@
+[
+  {
+    "experiment": "A0_supervised_direct",
+    "group": "architecture",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.8044530493707648,
+    "macro_f1": 0.7937584376165212,
+    "balanced_accuracy": 0.8011947718520247,
+    "quadratic_kappa": 0.884525947987812,
+    "confusion_matrix": [
+      [
+        344,
+        74,
+        0,
+        0
+      ],
+      [
+        33,
+        303,
+        39,
+        0
+      ],
+      [
+        0,
+        27,
+        120,
+        17
+      ],
+      [
+        0,
+        0,
+        12,
+        64
+      ]
+    ],
+    "recall_normal": 0.8229665071770335,
+    "recall_mild": 0.808,
+    "recall_moderate": 0.7317073170731707,
+    "recall_severe": 0.8421052631578947,
+    "macro_auroc_ovr": 0.9511048945223833,
+    "macro_auprc_ovr": 0.8470819733189168,
+    "ahi_mae": 2.487415516249554,
+    "ahi_rmse": 3.9853603247058977
+  },
+  {
+    "experiment": "A1_ssl_direct",
+    "group": "architecture",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.818973862536302,
+    "macro_f1": 0.8146212628693252,
+    "balanced_accuracy": 0.8014241062745555,
+    "quadratic_kappa": 0.8880664516895406,
+    "confusion_matrix": [
+      [
+        346,
+        72,
+        0,
+        0
+      ],
+      [
+        36,
+        319,
+        20,
+        0
+      ],
+      [
+        0,
+        37,
+        121,
+        6
+      ],
+      [
+        0,
+        0,
+        16,
+        60
+      ]
+    ],
+    "recall_normal": 0.8277511961722488,
+    "recall_mild": 0.8506666666666667,
+    "recall_moderate": 0.7378048780487805,
+    "recall_severe": 0.7894736842105263,
+    "macro_auroc_ovr": 0.9600376027248612,
+    "macro_auprc_ovr": 0.8807048341265757,
+    "ahi_mae": 2.2892093631529593,
+    "ahi_rmse": 3.8212163352660844
+  },
+  {
+    "experiment": "A2_ssl_factorised",
+    "group": "architecture",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.8276863504356244,
+    "macro_f1": 0.8240707511163934,
+    "balanced_accuracy": 0.8146256661609679,
+    "quadratic_kappa": 0.8950871715518796,
+    "confusion_matrix": [
+      [
+        355,
+        63,
+        0,
+        0
+      ],
+      [
+        40,
+        314,
+        21,
+        0
+      ],
+      [
+        0,
+        33,
+        124,
+        7
+      ],
+      [
+        0,
+        0,
+        14,
+        62
+      ]
+    ],
+    "recall_normal": 0.8492822966507177,
+    "recall_mild": 0.8373333333333334,
+    "recall_moderate": 0.7560975609756098,
+    "recall_severe": 0.8157894736842105,
+    "macro_auroc_ovr": 0.9617105568260473,
+    "macro_auprc_ovr": 0.886637811076905,
+    "ahi_mae": 2.2483329404286185,
+    "ahi_rmse": 3.727925580733022
+  },
+  {
+    "experiment": "A3_quality_no_boundary",
+    "group": "architecture",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.8199419167473379,
+    "macro_f1": 0.8170406424409076,
+    "balanced_accuracy": 0.8078015715563854,
+    "quadratic_kappa": 0.8902937444972153,
+    "confusion_matrix": [
+      [
+        351,
+        67,
+        0,
+        0
+      ],
+      [
+        42,
+        310,
+        23,
+        0
+      ],
+      [
+        0,
+        32,
+        125,
+        7
+      ],
+      [
+        0,
+        0,
+        15,
+        61
+      ]
+    ],
+    "recall_normal": 0.8397129186602871,
+    "recall_mild": 0.8266666666666667,
+    "recall_moderate": 0.7621951219512195,
+    "recall_severe": 0.8026315789473685,
+    "macro_auroc_ovr": 0.9615108807245173,
+    "macro_auprc_ovr": 0.8852892917584498,
+    "ahi_mae": 2.2408028185040614,
+    "ahi_rmse": 3.7107440367871947
+  },
+  {
+    "experiment": "no_hr",
+    "group": "signal",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.8238141335914811,
+    "macro_f1": 0.8252613023885822,
+    "balanced_accuracy": 0.8151115065935348,
+    "quadratic_kappa": 0.8904183661123506,
+    "confusion_matrix": [
+      [
+        348,
+        70,
+        0,
+        0
+      ],
+      [
+        39,
+        318,
+        18,
+        0
+      ],
+      [
+        0,
+        36,
+        121,
+        7
+      ],
+      [
+        0,
+        1,
+        11,
+        64
+      ]
+    ],
+    "recall_normal": 0.8325358851674641,
+    "recall_mild": 0.848,
+    "recall_moderate": 0.7378048780487805,
+    "recall_severe": 0.8421052631578947,
+    "macro_auroc_ovr": 0.9604385344457007,
+    "macro_auprc_ovr": 0.8805909399564634,
+    "ahi_mae": 2.2764599238152567,
+    "ahi_rmse": 3.7007012169840334
+  },
+  {
+    "experiment": "spo2_only",
+    "group": "signal",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.7899322362052275,
+    "macro_f1": 0.7614692743943485,
+    "balanced_accuracy": 0.7436341463414634,
+    "quadratic_kappa": 0.8653316301923634,
+    "confusion_matrix": [
+      [
+        352,
+        65,
+        1,
+        0
+      ],
+      [
+        49,
+        306,
+        20,
+        0
+      ],
+      [
+        0,
+        46,
+        108,
+        10
+      ],
+      [
+        0,
+        1,
+        25,
+        50
+      ]
+    ],
+    "recall_normal": 0.8421052631578947,
+    "recall_mild": 0.816,
+    "recall_moderate": 0.6585365853658537,
+    "recall_severe": 0.6578947368421053,
+    "macro_auroc_ovr": 0.9439082940498125,
+    "macro_auprc_ovr": 0.8215617137034563,
+    "ahi_mae": 2.622777553531889,
+    "ahi_rmse": 4.500708254749712
+  },
+  {
+    "experiment": "resp_only",
+    "group": "signal",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.718296224588577,
+    "macro_f1": 0.7193069493484948,
+    "balanced_accuracy": 0.7048872486093282,
+    "quadratic_kappa": 0.8240260389221012,
+    "confusion_matrix": [
+      [
+        341,
+        77,
+        0,
+        0
+      ],
+      [
+        94,
+        248,
+        33,
+        0
+      ],
+      [
+        2,
+        58,
+        95,
+        9
+      ],
+      [
+        0,
+        1,
+        17,
+        58
+      ]
+    ],
+    "recall_normal": 0.8157894736842105,
+    "recall_mild": 0.6613333333333333,
+    "recall_moderate": 0.5792682926829268,
+    "recall_severe": 0.7631578947368421,
+    "macro_auroc_ovr": 0.905836623447066,
+    "macro_auprc_ovr": 0.7599849475328535,
+    "ahi_mae": 3.4408110678396193,
+    "ahi_rmse": 5.2556516674760685
+  },
+  {
+    "experiment": "spo2_airflow",
+    "group": "signal",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.8276863504356244,
+    "macro_f1": 0.8186442868423047,
+    "balanced_accuracy": 0.8066011397673785,
+    "quadratic_kappa": 0.8927642095036101,
+    "confusion_matrix": [
+      [
+        358,
+        59,
+        1,
+        0
+      ],
+      [
+        40,
+        316,
+        19,
+        0
+      ],
+      [
+        0,
+        36,
+        121,
+        7
+      ],
+      [
+        0,
+        0,
+        16,
+        60
+      ]
+    ],
+    "recall_normal": 0.8564593301435407,
+    "recall_mild": 0.8426666666666667,
+    "recall_moderate": 0.7378048780487805,
+    "recall_severe": 0.7894736842105263,
+    "macro_auroc_ovr": 0.9583880581647937,
+    "macro_auprc_ovr": 0.8785416808185801,
+    "ahi_mae": 2.1968311885382272,
+    "ahi_rmse": 3.7333509166193894
+  },
+  {
+    "experiment": "spo2_effort",
+    "group": "signal",
+    "maximum_epochs": 10,
+    "outer_fold": 0,
+    "n": 1033,
+    "accuracy": 0.818973862536302,
+    "macro_f1": 0.8031039051906907,
+    "balanced_accuracy": 0.7902967090675692,
+    "quadratic_kappa": 0.8852197772779271,
+    "confusion_matrix": [
+      [
+        356,
+        62,
+        0,
+        0
+      ],
+      [
+        40,
+        315,
+        20,
+        0
+      ],
+      [
+        1,
+        36,
+        118,
+        9
+      ],
+      [
+        0,
+        1,
+        18,
+        57
+      ]
+    ],
+    "recall_normal": 0.8516746411483254,
+    "recall_mild": 0.84,
+    "recall_moderate": 0.7195121951219512,
+    "recall_severe": 0.75,
+    "macro_auroc_ovr": 0.9590565998782759,
+    "macro_auprc_ovr": 0.8740432643193601,
+    "ahi_mae": 2.3768309218194457,
+    "ahi_rmse": 4.029724080413215
+  }
+]

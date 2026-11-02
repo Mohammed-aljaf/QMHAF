@@ -1,0 +1,9 @@
+Stage,Parameter,Value
+SSL,Training,30 epochs; batch 32; 160-epoch crop; LR 0.0003; AdamW; WD 0.05
+SSL,Mask / teacher,0.45 per modality/epoch; EMA 0.996 to 1
+Main,Training,35-epoch limit; batch 16; accumulation 1; LR 0.0002; WD 0.05; 8% warmup + cosine
+Main,Selection,Validation macro-F1; patience 8; minimum improvement 0.0001
+Ablations,Training,10-epoch limit; outer fold 0 only; batch 16; accumulation 1
+Calibration,Fitting,"Validation-only Huber log-AHI, then multinomial logistic probabilities"
+Evaluation,Splits,Five frozen subject folds; validation = (test + 1) mod 5
+Execution,Environment,Python 3.13.11; torch 2.8.0+cu129; RTX 3090; workers 0

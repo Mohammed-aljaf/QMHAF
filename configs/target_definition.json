@@ -1,0 +1,91 @@
+{
+  "apnea_numerator_rule": {
+    "desaturation_required": false,
+    "minimum_duration_seconds": 10,
+    "sleep_rule": "event midpoint must be in a sleep epoch",
+    "types": [
+      "Obstructive apnea",
+      "Central apnea",
+      "Mixed apnea"
+    ]
+  },
+  "class_counts": {
+    "0": 2317,
+    "1": 2071,
+    "2": 937,
+    "3": 460
+  },
+  "cv": {
+    "folds": 5,
+    "random_state": 20260919,
+    "shuffle": true,
+    "type": "StratifiedKFold"
+  },
+  "denominator": {
+    "epoch_seconds": 30,
+    "sleep_stages": [
+      "Stage 1",
+      "Stage 2",
+      "Stage 3",
+      "Stage 4",
+      "REM"
+    ],
+    "source": "NSRR XML stage annotations"
+  },
+  "fold_class_counts": {
+    "0": {
+      "0": 464,
+      "1": 414,
+      "2": 187,
+      "3": 92
+    },
+    "1": {
+      "0": 464,
+      "1": 414,
+      "2": 187,
+      "3": 92
+    },
+    "2": {
+      "0": 463,
+      "1": 414,
+      "2": 188,
+      "3": 92
+    },
+    "3": {
+      "0": 463,
+      "1": 414,
+      "2": 188,
+      "3": 92
+    },
+    "4": {
+      "0": 463,
+      "1": 415,
+      "2": 187,
+      "3": 92
+    }
+  },
+  "formula": "(valid sleep apneas + valid sleep hypopneas paired to >=3% XML oxygen desaturation) / XML sleep hours",
+  "hypopnea_numerator_rule": {
+    "desaturation_pairing": "SpO2-desaturation annotation at respiratory-event start + 30.0 seconds, matched by nearest duration",
+    "minimum_desaturation_percent": 3.0,
+    "minimum_duration_seconds": 10,
+    "sleep_rule": "event midpoint must be in a sleep epoch",
+    "types": [
+      "Hypopnea",
+      "Unsure"
+    ]
+  },
+  "qc_pass_subjects": 5197,
+  "severity_thresholds": {
+    "mild": "5 <= AHI < 15",
+    "moderate": "15 <= AHI < 30",
+    "normal": "AHI < 5",
+    "severe": "AHI >= 30"
+  },
+  "source_manifest_sha256": "a68550eb9a9a1f82b3b0b23015b4d86a30eb08545a474c004d79eefe71b94efb",
+  "status": "frozen_local_reconstruction_not_official_nsrr_csv",
+  "subjects": 5785,
+  "target_sha256": "2d1b93a8eb3be485d7373ae45fc05c75125ed38a890c0c89dfbea1666cd7dd84",
+  "target_version": "ahi_a0h3_local_v1",
+  "upgrade_path": "Create a new immutable target version when official shhs1-dataset-0.21.0.csv is supplied; do not overwrite this version."
+}

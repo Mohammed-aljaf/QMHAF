@@ -1,0 +1,32 @@
+{
+  "aggregations": [
+    "mean",
+    "std",
+    "p10",
+    "p50",
+    "p90"
+  ],
+  "allnight_columns_including_subject_id": 480,
+  "allnight_sha256": "4c48362cfffb9463ed65e9fec5de35801ae4669bc966cd4d47c26be40fb734c5",
+  "allnight_stage_information_used": false,
+  "annotation_or_event_arrays_used_as_features": false,
+  "excluded_quality_only_epoch_features": [
+    "abdo_valid_fraction",
+    "airflow_valid_fraction",
+    "ecg_valid_fraction",
+    "eeg_primary_valid_fraction",
+    "eeg_secondary_valid_fraction",
+    "emg_valid_fraction",
+    "eog_left_valid_fraction",
+    "eog_right_valid_fraction",
+    "hr_valid_fraction",
+    "spo2_valid_fraction",
+    "thor_valid_fraction"
+  ],
+  "model_input_epoch_features": 89,
+  "sleep_oracle_columns_including_subject_id": 482,
+  "sleep_oracle_sha256": "58e921d3a45f3a7b147fba5fe26c6ed5440cc1883b3c10495c79f949efadb2c8",
+  "sleep_oracle_stage_information_used": true,
+  "subjects": 5785,
+  "target_version": "ahi_a0h3_local_v1"
+}

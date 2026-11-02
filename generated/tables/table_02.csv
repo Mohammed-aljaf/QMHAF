@@ -1,0 +1,7 @@
+Module,Input and structure,Output
+Respiratory encoder,"3 × 300; CNN kernels 15/7/5, strides 5/2/2",128-d token
+Low-rate encoder,"5 × 30; CNN kernels 5/5, strides 2/3",128-d token
+Modality fusion,Two-token four-head attention; five-value quality gate,128-d fused token
+Local context,Two Transformer layers; 20 epochs per block,Epoch/block tokens
+Night context,Three Transformer layers over block tokens,128-d night token
+Output heads,"Event rate, sleep, direct log-AHI, ordinal and threshold heads",AHI and four probabilities
